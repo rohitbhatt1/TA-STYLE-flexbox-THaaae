@@ -1,0 +1,89 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,
+        400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,600&display=swap" rel="stylesheet">
+          <!--  -->
+</head>
+<body>
+   
+    <header class="header"> 
+       <div class="container clearfix ">
+           <a href="#" class="brand"><h1>KFC</h1></a>
+            <nav class="nav">
+                <a href="#">HOME</a>
+                <a href="#">GENERIC</a>
+                <a href="#">ELEMENTS</a>
+            </nav>
+       </div>
+    </header>
+    <main>
+        <!-- feature -->
+        <section>
+            <div  class="container section1">
+               
+                <div  class="intro">
+                    <h2>INTRIDUCTION</h2>
+                    <p>KFC, Inc., formerly (1998–78) Blue Ribbon Sports, American sportswear company headquartered in Beaverton, Oregon. It was founded in 1964 as Blue Ribbon Sports by Bill Bowerman, a track-and-field coach at the University of Oregon, and his former student Phil Knight. They opened their first retail outlet in 1966 and launched the Nike brand shoe in 1972. The company was renamed Kfc, Inc., in 1978 and went public two years later. By the early 21st century, Nike had retail outlets and distributors in more than 170 countries, and its logo—a curved check mark called the “swoosh”—was recognized throughout the world. </p>
+                </div>
+                <div class="intro">
+                    <img src="./media/image1.jpg" alt="image1">
+                </div>
+               
+
+            </div>
+        </section>
+        <!-- gallery-->
+        <section>
+            
+            <div  class="container section2">
+               <div class="image">
+                 <img src="./media/image2.jpeg" alt="img2">
+               </div>
+               <div  class="image">
+                 <img src="./media/image3.jpeg" alt="image7">
+               </div>
+               <div  class="image">
+                 <img src="./media/image4.jpeg" alt="image4">
+               </div>
+            </div>
+            <div  class="container section2">
+                <div class="image">
+                  <img src="./media/image7.jpeg" alt="img2">
+                </div>
+                <div  class="image">
+                  <img src="./media/image5.jpeg" alt="image7">
+                </div>
+                <div  class="image">
+                  <img src="./media/image6.jpeg" alt="image4">
+                </div>
+             </div>
+            
+        </section>
+    </main>
+    <footer>
+        <small><a class="footer-anchor" href="a">&#169; Altcampus</a></small>
+    </footer>
+    
