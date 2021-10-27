@@ -106,7 +106,8 @@ span{
 .aside{
     width: 20%;
     height: 605px;
-    border: 2px solid aqua;
+    /* border: 2px solid aqua;
+     */
     background-color: #A3CAEA;
     border-radius: 10px;
     padding: 50px 30px;
@@ -117,8 +118,6 @@ span{
 .flex-1{
     display:flex;
     justify-content:space-between;
-    /* align-items: center;/ */
-    /* flex-direction:column; */
 }
 .icon-flex{
     display:flex;
