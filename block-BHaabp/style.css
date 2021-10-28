@@ -1,0 +1,228 @@
+
+  
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+  
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color:#6f3f77;
+    padding: 20px 90px;
+}
+ .nav li {
+        display: inline-block;
+        margin: 0 10px;
+        vertical-align: top;
+        font-size:20px;
+}
+.item1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: #5ebd8b;
+}
+.main-div{
+    background-color: rebeccapurple;
+}
+
+.banner {
+    padding: 20px 50px;
+    display: flex;
+    background-color: #6f3f77;
+    justify-content: center;
+}
+.vertical-line{
+    border-left: 1px solid white;
+}
+.left-section1{
+    width: 50%;
+}
+.right-banner{
+    width: 50%;
+}
+.left-banner{
+    width: 50%;
+}
+/* img */
+.img{
+    width: 30px;
+    height: 30px;
+    margin: 10px 0;
+}
+.img-para{
+    margin: 13px 0;
+}
+
+.text{
+    font-size: 3em;
+    color:white;
+    padding: 40px;
+}
+.flex {
+    display: flex;
+    padding: 20px;
+    padding-left: 30px;
+}
+.section-2{
+   padding-left: 20px;
+    
+}
+.heading{
+    font-size:30px;
+    color:#b79ebc;
+    padding: 40px;
+}
+.heading1{
+    padding: 20px;
+    font-size: 20px;
+    color:#686868;
+}
+.baner-button{
+    border-radius: 20px;
+    margin-left: 40px; 
+    background-color:#5ebd8b;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fafafa;
+    margin: 20px .;
+}
+.section-1 {
+    padding: 40px;
+    display: flex;
+    background-color:white;
+    color:#686868;
+    
+    
+}
+.content{
+    background-color:#fafafa;
+    padding-top: 70px;
+   padding-right: 50px;
+   padding-left: 50px;
+}
+ .vertical-left{
+      border-left: 1px solid #686868;
+}
+ ul.checklist li {
+      text-decoration: none;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        
+    }
+
+.button-1{
+   border-radius: 20px;
+    margin-left: 40px; 
+    background-color:#5ebd8b;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fafafa;
+}
+  
+.image {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    
+    
+}
+h3 {
+    font-weight: bold;
+    line-height: 5;
+    padding-left: 30px;
+    color:#686868;
+    
+}
+
+        .spotlight .image {
+            
+            width: 55%;
+  }
+
+ .spotlight .content {
+            padding: 20px;
+            width: 45%;
+}
+
+ .spotlight {
+          display: flex;
+            margin-bottom: 20px;
+ }
+ .font{
+     background-color: white;
+ }
+p{
+    color:#686868;
+    padding-left: 30px;
+}
+.form-button{
+    text-align:center;
+    border-radius: 20px;
+    padding: 10px;
+     margin:20px;
+     
+}
+.forms{
+    padding-left: 10px;
+    margin:10px;
+}
+textarea {
+    padding-right:30px;
+    margin: 10px;
+    padding-left: 30px;
+}
